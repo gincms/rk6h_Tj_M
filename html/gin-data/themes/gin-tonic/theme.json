@@ -1,0 +1,8 @@
+{
+  "name": "gin-tonic",
+  "title": "Gin Tonic",
+  "description": "The default theme for Gin CMS.",
+  "image": "screenshot.png",
+  "version": "1.2.0",
+  "repository": "https://github.com/gincms/gin-tonic.git"
+}
