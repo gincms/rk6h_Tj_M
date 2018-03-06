@@ -1,10 +1,14 @@
 {
   "site": {
-    "name": "",
+    "name": "LamboMoon Wiki",
     "tagline": "",
     "description": "",
-    "url": "",
-    "theme": "gin-whitepaper",
-    "gaTrackingId": ""
+    "url": "https://lambomoon.club",
+    "defaultSection": "",
+    "defaultBlog": "0",
+    "theme": "gin-tonic",
+    "gaTrackingId": "UA-113364681-1",
+    "head": "",
+    "foot": ""
   }
 }
