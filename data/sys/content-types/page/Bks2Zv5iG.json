@@ -1,16 +1,16 @@
 {
-  "title": "General Information",
+  "title": "Info",
   "subtitle": "",
   "slug": "index",
   "section": "",
   "url": "/info/",
-  "body": "### Fees\r\n\r\nLamboMoon has a variable mining fee that decreases from 5% to 1% as the number miners/hashing power increases. This is to ensure that the costs of running the pool can be met and contributions can be made to the coin communities, while keeping miners' rewards as high as possible.\r\n\r\nRemember that mining on a pool with fewer miners (such as LamboMoon) means that you earn more because you share the block rewards with fewer people.\r\n\r\n### LamboMoon donates\r\n\r\nA portion of the fees on LamboMoon are donated to the following project addresses:\r\n\r\n[BitcoinZ](http://btcz.rocks): t1fHHnAXxoPWGY77sG5Zw2sFfGUTpW6BcSZ  \r\n[SnowGem](http://snowgem.org): s1aUpbqEWaKoj54t7d3LCf9hMmnCXJdBDvt  \r\n\r\n### Donate to LamboMoon\r\n\r\nIf you would like to support this pool, you can donate to any — or all ;-) — of the following addresses:\r\n\r\n**BTCZ**: t1UBwvprfqGyPcwe5WNy7tzFSHavbNpoy2Z\r\n**SNG**: s1imAACaSMHTzK3LSWVmLWs9riVfSN3Xycb\r\n**BTC**: 1GeqKUpLxcUfFNJSLatFvJqDpNEWYpnXJ6\r\n**ETH**: 0x99edfc880a899bf290890a9a169d5b9e0c96c8cc\r\n**EOS**: 0xba0351134b556521a6af99860d3147ed738ef93a",
+  "body": "[LamboMoon](https://lambomoon.club) is an anonymous, altcoin mining pool.  Earn block rewards while contributing to the health and stability of the network. Block rewards are paid early and often. Just take your pick and [start mining altcoins](/)!\r\n\r\nThis pool supports the community by contributing a portion of the fee to the projects listed (see info). It also contributes time directly to some of these projects. By mining with LamboMoon, you're also supporting these projects, by helping to keep network hashing power more evenly distributed. This prevents other pools from growing too large; a pool that has too much hashing power on any one network increases the risk of a majority attack (AKA 51% attack).\r\n\r\nCentralised network hash is bad. Protect the network. Make mining decentralised again! ;-)",
   "featured-image": {
     "src": ""
   },
   "summary": "",
   "created": "2018-04-10T16:09:22.981Z",
-  "updated": "2018-04-10T17:19:31.870Z",
+  "updated": "2018-04-10T19:16:24.175Z",
   "published": "2018-04-10T16:09:37.632Z",
   "contentType": "page",
   "id": "Bks2Zv5iG"
