@@ -1,5 +1,6 @@
 {
   "/": "/info/",
   "/info/zoop/": "/info/",
-  "/info/fees/": "/info/pool-fee/"
+  "/info/pool/fees/": "/info/fees/",
+  "/info/pool-fee/": "/info/fees-donations/"
 }
