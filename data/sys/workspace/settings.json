@@ -4,6 +4,7 @@
     "tagline": "Altcoin Mining Pool",
     "description": "",
     "url": "https://lambomoon.club",
+    "contentRoot": "info",
     "defaultSection": "",
     "defaultBlog": "0",
     "theme": "gin-lm",
