@@ -4,5 +4,11 @@
     "type": "page",
     "title": "General Information",
     "url": "/info/"
+  },
+  "rkDomu5jG": {
+    "id": "rkDomu5jG",
+    "type": "page",
+    "title": "Fees",
+    "url": "/info/pool/fees/"
   }
 }
