@@ -1,9 +1,9 @@
 {
   "site": {
     "name": "LamboMoon",
-    "tagline": "",
+    "tagline": "Altcoin Mining Pool",
     "description": "",
-    "url": "https://lambomoon.club/crypto/",
+    "url": "https://lambomoon.club",
     "defaultSection": "",
     "defaultBlog": "0",
     "theme": "gin-tonic",
