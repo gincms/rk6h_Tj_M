@@ -1,8 +1,8 @@
 {
-  "name": "gin-lambomoon",
+  "name": "gin-lm",
   "title": "LamboMoon Theme",
   "description": "The LamboMoon Gin theme.",
   "image": "screenshot.png",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": "git@bitbucket.org:latnblack/gin-lm.git"
 }
