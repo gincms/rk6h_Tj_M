@@ -34,6 +34,22 @@
   </script>
 </head>
 <body>
+<nav class="navbar is-fixed-top">
+  <div class="container">
+    <div class="navbar-brand">
+        <a class="navbar-item lambomoon-logo" href="https://lambomoon.club">
+          <img src="/static/img/logo-t-343x75.png" alt="LamboMoon">
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-end">
+        <a href="/info/" class="navbar-item">
+          <i class="fa fa-info"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
 <header class="hero">
   <div class="hero-body">
     <div class="container">
@@ -41,7 +57,6 @@
         <div class="column is-10 is-offset-1 is-6-desktop is-offset-4-desktop">
           <h1 class="title">
             <a href="{{content.url}}">{{content.title}}</a>
-            <img class="gin-logo" src="{{asset('img/logo.svg')}}">
           </h1>
           {% if content.subtitle %}
           <h2 class="subtitle">{{content.subtitle}}</h2>
