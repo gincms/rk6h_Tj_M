@@ -1,16 +1,16 @@
 {
   "title": "General Info",
   "subtitle": "",
-  "slug": "anything",
+  "slug": "index",
   "section": "",
-  "url": "/info/anything/",
+  "url": "/info/",
   "body": "Find useful information about LamboMoon and crypto in general.",
   "featured-image": {
     "src": ""
   },
   "summary": "",
   "created": "2018-04-10T10:35:44.219Z",
-  "updated": "2018-04-10T14:38:59.072Z",
+  "updated": "2018-04-10T14:39:11.333Z",
   "published": "2018-04-10T10:35:51.911Z",
   "contentType": "page",
   "id": "B1_Y7z5sM"
