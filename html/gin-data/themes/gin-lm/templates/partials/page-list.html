@@ -2,9 +2,10 @@
 {% for item in items %}
   <li> 
     <article>
-      <p><a href="{{item.url}}">{{item.title}}</a></p>
       {% if item.subtitle %}
-      <p>{{item.subtitle}}</p>
+      <p><a href="{{item.url}}">{{item.title}}: {{item.subtitle}}</a></p>
+      {% else %}
+      <p><a href="{{item.url}}">{{item.title}}</a></p>
       {% endif %}
       {% if item.summary %}
       <p>{{item.summary}}</p>
