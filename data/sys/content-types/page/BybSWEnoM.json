@@ -4,14 +4,14 @@
   "slug": "updates",
   "section": "",
   "url": "/info/updates/",
-  "body": "{{list match=\"/updates/[a-zA-Z0-9]\" blog=0}}",
+  "body": "{{list match=\"/updates/[a-zA-Z0-9]\" blog=0 type=\"page\"}}",
   "featured-image": {
     "src": ""
   },
   "summary": "",
   "list": "1",
   "created": "2018-04-12T01:07:05.419Z",
-  "updated": "",
+  "updated": "2018-04-12T01:10:34.954Z",
   "published": "",
   "contentType": "page",
   "id": "BybSWEnoM"
