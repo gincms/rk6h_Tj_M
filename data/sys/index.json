@@ -10,5 +10,12 @@
     "type": "page",
     "title": "Fees and Donations",
     "url": "/info/fees-donations/"
+  },
+  "BybSWEnoM": {
+    "id": "BybSWEnoM",
+    "type": "page",
+    "title": "Updates",
+    "url": "/info/updates/",
+    "list": "1"
   }
 }
