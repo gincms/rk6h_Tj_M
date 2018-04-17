@@ -3,6 +3,6 @@
   "title": "LamboMoon Theme",
   "description": "The LamboMoon Gin theme.",
   "image": "screenshot.png",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "repository": "git@bitbucket.org:latnblack/gin-lambomoon.git"
 }
