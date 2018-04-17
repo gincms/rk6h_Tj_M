@@ -4,13 +4,13 @@
   "slug": "17th-april-2018",
   "section": "updates",
   "url": "/info/updates/17th-april-2018/",
-  "body": "**TL;DR:**\r\n* Got some spare hash? Mine some **Zelcash**!  It's live and blocks are already being mined.\r\n* LamboMoon rewriting the rules,\r\n\r\n### Zelcash now available\r\n\r\nA promising project that's promising a development platform, a Proof-of-Stake element in the form of masternodes and of, of course is a mineable Proof-of-Work, equihash coin. Other key info:\r\n\r\nBlock time: 2mins\r\nBlock reward: 150 ZEL\r\nTotal ZEL Supply: 210,000,000\r\n[Website](https://zel.cash/) | [Announcement](https://bitcointalk.org/index.php?topic=2853688.0)\r\n",
+  "body": "**TL;DR:**\r\n* Got some spare hash? **[Mine some Zelcash](/)**!  It's live and blocks are already being mined.\r\n* LamboMoon rewriting the rules,\r\n\r\n### Zelcash now available\r\n\r\nA promising project that's promising a development platform, a Proof-of-Stake element in the form of masternodes and of, of course is a mineable Proof-of-Work, equihash coin. Other key info:\r\n\r\nBlock time: 2mins  \r\nBlock reward: 150 ZEL  \r\nTotal ZEL Supply: 210,000,000  \r\n[Website](https://zel.cash/) | [Announcement](https://bitcointalk.org/index.php?topic=2853688.0)\r\n\r\n<h4>Start mining Zelcash</h4> |  \r\n------|-------|-----  \r\nhost | **stratum+tcp://lambomoon.club**\r\nport | **3044** (low diff)\r\nport | **3144** (10000+ diff)\r\npassword | _none_ ( for now &#128521; ) \r\n\r\n\r\n### Let's talk about transparency\r\n\r\n",
   "featured-image": {
     "src": ""
   },
   "summary": "",
   "created": "2018-04-17T13:55:08.016Z",
-  "updated": "",
+  "updated": "2018-04-17T14:09:42.797Z",
   "published": "",
   "contentType": "page",
   "id": "B1Eahum2f"
