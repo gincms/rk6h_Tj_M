@@ -1,0 +1,17 @@
+{
+  "title": "Transparency",
+  "subtitle": "How are pool earnings calculated?",
+  "slug": "transparency",
+  "section": "",
+  "url": "/info/transparency/",
+  "body": "If you've spent time on LamboMoon recently you may have noticed the *[Earnings tab](/#earnings \"Earnings tab\")*. This is where LamboMoon shows you what most other pools don't: its revenue. The revenue is broken down simply into two categories: the amount paid to miners and the amount paid to the pool. Overlayed on top of this is the running cost  of the pool.\r\n\r\n### How is the revenue calculated\r\n\r\nThe formulas are pretty simple but, due to current (but hopfeully not permanent) technical limitations, they involve a teeny-weeny bit of approximation. Below is the formula the dollar amount paid to miners:\r\n\r\n**$$$ paid to miners** = *Value of Coin (VoC)  &ast; Coins Paid to Miners (CPM)  &ast; $BTC*  \r\n\r\n*VoC* and *$BTC*  are the values of the coins and BTC (respectively) arount the time the payments are made. However, this feature only went live on 17th April 2018, so all payments before this date are based on values retrieved from Coin Market Cap and exchanges on 16th April 2018. Going forward, the coin values will generally be the most recent for each month. Of course, coin values fluctuate, so the overall revenue will always be approximate.\r\n\r\n#### What about the pool fee?\r\n\r\nGreat question! This is where it gets even trickier. The amount the pool receives is derived from *CPM* (above). This is because retrieving the fee the pool receives for each coin, in each month, is programmatically more problematic than retrieving the *CPM*.  And because modifying the core software can be a severe maintenance headache, or more sane approach is taken:\r\n\r\n** Estimated fee from block-reward (EFB) ** = CPM &ast; 1.05 (because the overall pool fee is 5%)\r\n\r\n**$ paid to pool** = VoC &ast;\r\n",
+  "featured-image": {
+    "src": ""
+  },
+  "summary": "",
+  "created": "2018-04-17T13:01:16.633Z",
+  "updated": "",
+  "published": "",
+  "contentType": "page",
+  "id": "H1Smg_X2z"
+}
