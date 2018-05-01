@@ -1,0 +1,17 @@
+{
+  "title": "Cryptocurrency News",
+  "subtitle": "Topics of note from here to the moon",
+  "slug": "cryptocurrency-news-bites",
+  "section": "",
+  "url": "/info/cryptocurrency-news-bites/",
+  "body": "# 1 May 2018\r\n\r\n\r\n# 30 April 2018\r\n# [Japan's  regulators want privacy coins gone](https://www.forbes.com/sites/adelsteinjake/2018/04/30/japans-financial-regulator-is-pushing-crypto-exchanges-to-drop-altcoins-favored-by-criminals/#7e2aa3541b8a)\r\nRegulators in Japan are floating the idea of banning privacy coins on crypto exchanges. Currencies such as Monero (XMR) and Dash (DASH) are considered 'highly problematic' because their privacy features make them difficult, if not impossible, to trace, making them more appealing to criminals than the once favoured Bitcoin (BTC).\r\n\r\nThoughts: It's easy to see regulatory bodies in other countries such as the US and UK toying with a similar idea. But the likelihood is that, if there's a clampdown on privacy coins on centralised exchanges, those looking to use them will migrate to decentralised exchanges, which are far more difficult to regulate.\r\n\r\n# [Bitcoin goes stealth (again)](https://themerkle.com/what-is-anonymous-bitcoin-cryptocurrency)\r\nAnonymous Bitcoin (BTCA) aims to be the faster, privacy-focused lovechild of Bitcoin (BTC) and ZClassic (ZCL). It'll be a dual fork from both currencies and utililise the zkSnarks privacy that ZCL inherited from ZCash (ZEC).\r\n\r\nThoughts: For fork's sake... this sounds very familiar. Bitcoin Private, anyone? Plus, there are plenty other privacy coins already.  I'm skeptical that there'll be any vast improvement or value over existing options such as XMR and ZEC, or lesser known coins such as BitcoinZ (BTCZ) and SnowGem (XSG).\r\n\r\n# [UNICEF wants your hash](https://www.ccn.com/unicef-wants-to-use-your-cpu-to-mine-monero-to-raise-funds-for-children/)\r\nUNICEF Australia has launched a [website](https://www.thehopepage.org/) that allows users to donate their CPU power to cryptocurrency mining. They'll be using Coinhive tech to mine Monero – with the user's permission – the funds go towards the charity's cause.\r\n\r\nThoughts: Can't knock it. They're utilising modern tech to give people another way to contribute. Other charities are sure to follow suit.",
+  "featured-image": {
+    "src": ""
+  },
+  "summary": "",
+  "created": "2018-05-01T10:29:09.994Z",
+  "updated": "",
+  "published": "",
+  "contentType": "page",
+  "id": "rkR_ZpSTM"
+}
