@@ -4,12 +4,23 @@
 {% block title %}{{content.title}} - {{super()}}{% endblock %}
 
 {% block heading %}
+{% set regExp = r/updates/g %}
+{% if regExp.test(content.url) %}
+    <h1 class="title">{{content.title}}</h1>
+    {% if content.subtitle %}
+    <h2 class="subtitle">
+      <a href="{{content.url}}">{{content.subtitle}}</a>
+    </h2>
+    {% endif %}
+{% else %}
+
     <h1 class="title">
       <a href="{{content.url}}">{{content.title}}</a>
     </h1>
     {% if content.subtitle %}
     <h2 class="subtitle">{{content.subtitle}}</h2>
     {% endif %}
+{% endif %}
 {% endblock %}
 
 {% block content %}
