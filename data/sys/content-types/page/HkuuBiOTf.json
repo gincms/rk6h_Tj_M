@@ -1,0 +1,18 @@
+{
+  "title": "Cryptocurrency News",
+  "subtitle": "Crypto news, from here to the moon",
+  "slug": "index",
+  "section": "news",
+  "url": "/news/",
+  "body": "{{list type=page summary=true nosub=true}}",
+  "featured-image": {
+    "src": ""
+  },
+  "summary": "",
+  "list": "1",
+  "created": "2018-05-03T15:06:23.662Z",
+  "updated": "",
+  "published": "",
+  "contentType": "page",
+  "id": "HkuuBiOTf"
+}
