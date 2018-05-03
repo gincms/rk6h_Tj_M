@@ -48,5 +48,12 @@
     "type": "page",
     "title": "What is BitcoinZ (BTCZ)?",
     "url": "/news/what-is-bitcoinz-btcz/"
+  },
+  "HkuuBiOTf": {
+    "id": "HkuuBiOTf",
+    "type": "page",
+    "title": "Cryptocurrency News",
+    "url": "/news/",
+    "list": "1"
   }
 }
