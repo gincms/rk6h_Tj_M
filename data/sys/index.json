@@ -55,5 +55,11 @@
     "title": "Cryptocurrency News",
     "url": "/news/",
     "list": "1"
+  },
+  "r1OQl9YTG": {
+    "id": "r1OQl9YTG",
+    "type": "page",
+    "title": "What is VoteCoin (VOT)?",
+    "url": "/news/what-is-votecoin-vot/"
   }
 }
