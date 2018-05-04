@@ -2,12 +2,11 @@
   "site": {
     "name": "LamboMoon",
     "tagline": "Altcoin Mining Pool",
-    "description": "",
+    "description": "LamboMoon is an equihash mining pool providing stable, anonymous mining for a variety of equihash altcoins including: BTCZ, XSG, VOT, LTZ and ZEL.",
     "url": "https://lambomoon.club",
     "contentRoot": "",
     "defaultSection": "news",
     "defaultBlog": "1",
-    "theme": "gin-lm",
     "gaTrackingId": "UA-113364681-1",
     "postSyncCommand": "ssh lambomoon 'cd /var/www/lambomoon-content && git reset --hard && git pull && chmod -R 755 ../lambomoon-content'",
     "head": "",
