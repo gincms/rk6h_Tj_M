@@ -19,9 +19,218 @@
   </script>
   <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
   <style amp-custom>
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        box-sizing: border-box;
+        background-color: #fff;
+        font-size: 15px;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        min-width: 300px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        text-rendering: optimizeLegibility;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        text-size-adjust: 100%;
+    }
+
     body {
-      font-family: "Open Sans"
-      color: indianred
+        padding-top: 80px;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #333;
+    }
+
+    body * {
+        font-family: "Open Sans";
+    }
+
+    a {
+        color: #008cba;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: #008cba;
+    }
+
+    a:hover, a:active {
+        color: #00526e;
+    }
+
+    .lambomoon-logo {
+        color: #008cba;
+        transition: color .2s ease-in;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .i-amphtml-fill-content {
+        display: block;
+        height: 0;
+        max-height: 60%;
+        max-width: 60%;
+        min-height: 50%;
+        min-width: 50%;
+        width: 0;
+        width: 0;
+        margin: auto;
+    }
+
+    .navbar-brand {
+        height: 50px;
+    }
+
+    .navbar {
+        background: #008cba;
+        display: block;
+    }
+
+    .navbar.is-fixed-top {
+        top: 0;
+        left: 0;
+        position: fixed;
+        right: 0;
+        z-index: 30;
+    }
+
+    article {
+        padding: 20px 15px 50px;
+    }
+    .heading {
+        display: block;
+    }
+
+    .heading {
+        display: block;
+        font-size: 11px;
+        letter-spacing: 1px;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+    }
+
+    .title {
+        font-weight: 400;
+        text-transform: initial;
+        font-size: 2rem;
+        line-height: 1.125;
+        font-weight: normal;
+    }
+
+    .subtitle, .title {
+        word-break: break-word;
+    }
+
+    .subtitle {
+        font-weight: 400;
+        line-height: 1.25;
+    }
+
+    .subtitle, .title.is-5 {
+        font-size: 1.25rem;
+    }
+
+    a.navbar-item.lambomoon-logo {
+        color: #008cba;
+        transition: color .2s ease-in;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+        height: 100%;
+    }
+
+    h1, h2, h3, h4 {
+        color: #88a4ae;
+        font-weight: normal;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1.4rem;
+    }
+
+    h5 {
+        font-size: 1.3rem;
+    }
+
+    h6 {
+        font-size: 1.2rem;
+    }
+
+    .content blockquote:not(:last-child), .content dl:not(:last-child), .content ol:not(:last-child), .content p:not(:last-child), .content pre:not(:last-child), .content table:not(:last-child), .content ul:not(:last-child) {
+        margin-bottom: 1em;
+    }
+
+
+    .content table {
+        width: 100%;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    thead {
+        display: table-header-group;
+        vertical-align: middle;
+        border-color: inherit;
+    }
+
+    td, th {
+        padding: 0;
+        text-align: left;
+    }
+
+    table td, table th {
+        text-align: left;
+        vertical-align: top;
+    }
+
+    .content table td, .content table th, .table td, .table th {
+        border: 1px solid #e9e9e9;
+        border-width: 0 0 1px;
+        padding: .5em .75em;
+        vertical-align: top;
+    }
+
+    .content table th, .table th {
+        color: #222;
+        text-align: left;
+    }
+
+    .content table td, .content table th, .table td, .table th {
+        vertical-align: middle;
+    }
+
+    .content table thead td, .content table thead th, .table thead td, .table thead th {
+        border-width: 0 0 2px;
+        color: #222;
+    }
+
+    .navbar-brand {
+        height: 50px;
+    }
+
+    img.i-amphtml-fill-content.i-amphtml-replaced-content.i-amphtml-ghost {
+        display: block;
     }
   </style>
 </head>
