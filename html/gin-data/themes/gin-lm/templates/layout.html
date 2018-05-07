@@ -13,6 +13,9 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="{{gin.site.description}}">
   <link rel="canonical" href="{{url()}}">
+  {% if content.amp %}
+  <link rel="amphtml" href="{{ampurl()}}">
+  {% endif %}
   <link rel="shortcut icon" href="/static/img/favicon.ico">
   <title>{% block title %}{{gin.site.name}}{% endblock %}</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
