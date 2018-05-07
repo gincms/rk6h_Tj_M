@@ -2,7 +2,9 @@
 {% for item in items %}
   <li> 
     <article>
-      {% if item.subtitle %}
+      {% if titleOnly %}
+      <p><a href="{{item.url}}">{{item.title}}</a></p>
+      {% elif item.subtitle %}
       <p><a href="{{item.url}}">{{item.title}}: {{item.subtitle}}</a></p>
       {% else %}
       <p><a href="{{item.url}}">{{item.title}}</a></p>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html amp lang="en">
+<head data-gincb="{{gin.cacheBuster}}">
+  <meta charset="utf-8">
+  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="canonical" href="{{url()}}">
+  <link rel="shortcut icon" href="/static/img/favicon.ico">
+  <title>{% block title %}{{gin.site.name}}{% endblock %}</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "NewsArticle",
+      "headline": "{{ content.title }}",
+      "datePublished": "{{ content.published }}"
+    }
+  </script>
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+  <style amp-custom>
+    body {
+      font-family: "Open Sans"
+      color: indianred
+    }
+  </style>
+</head>
+<body>
+  <amp-analytics type="googleanalytics" id="lm-primary-analytics">
+    <script type="application/json">
+      {
+        "vars": {
+          "account": "{{gin.site.gaTrackingId}}"
+        },
+        "triggers": {
+          "trackPageView": {
+            "on": "visible",
+            "request": "pageview",
+            "vars": {
+              "title": "{{ content.title }}",
+              "documentLocation": "{{url()}}"
+            }
+          }
+        }
+      }
+    </script>
+  </amp-analytics>
+  <nav class="navbar is-fixed-top">
+    <div class="container">
+      <div class="navbar-brand">
+          <a class="navbar-item lambomoon-logo" href="https://lambomoon.club">
+            <amp-img src="/static/img/logo-t-343x75.png" alt="LamboMoon" height="75" width="343"></amp-img>
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div class="navbar-menu">
+        <div class="navbar-end">
+          <a href="/info/" class="navbar-item">Mining on LamboMoon</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <article>
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-10 is-offset-1 is-6-desktop is-offset-4-desktop">
+            <div class="heading">
+              {% block heading %}<em>Untitled</em>{% endblock %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-10">
+            <div id="primary-content" class="content">
+              {% block content %} Nothing to see here {% endblock %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </article>
+  <footer class="footer has-text-centered">
+    {{ nav("footer") | safe }}
+    {% block foot %}
+    {% endblock%}
+  </footer>
+</body>
+</html>
